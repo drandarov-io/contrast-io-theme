@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "intellij-contrast-io-theme"
+version = "0.1.0"
+description = ""
+authors = ["Dmitrij Drandarov <dmitrij.drandarov@outlook.com>"]
+
+homepage = "https://drandarov.io"
+documentation = "https://"
+repository = "https://git.david-bs.de/smartniv/smartniv"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+# Data science
+numpy = "^1.22.3"
+
+# Visualization
+jupyter = "^1.0.0"
+plotly = "^5.6.0"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
