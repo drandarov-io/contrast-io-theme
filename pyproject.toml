@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "intellij-contrast-io-theme"
 version = "0.1.0"
-description = ""
+description = "A contrastful theme in light and dark mode for IntelliJ Platform IDEs"
 authors = ["Dmitrij Drandarov <dmitrij.drandarov@outlook.com>"]
 
 homepage = "https://drandarov.io"
-documentation = "https://"
-repository = "https://git.david-bs.de/smartniv/smartniv"
+documentation = "https://github.com/drandarov-io/intellij-contrast-io-theme"
+repository = "https://github.com/drandarov-io/intellij-contrast-io-theme"
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -17,6 +18,7 @@ numpy = "^1.22.3"
 # Visualization
 jupyter = "^1.0.0"
 plotly = "^5.6.0"
+pre-commit = "^2.19.0"
 
 
 [tool.poetry.dev-dependencies]

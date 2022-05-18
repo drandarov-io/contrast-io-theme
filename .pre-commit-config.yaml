@@ -1,0 +1,9 @@
+repos:
+    -   repo: local
+        hooks:
+            -   id: generate-readme
+                name: Generate README from
+                entry: jupyter nbconvert --execute --to markdown README.ipynb
+                language: system
+                always_run: true
+                pass_filenames: false
